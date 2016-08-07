@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Gravity
-email: hemangsk@gmail.com
-description: The Liberal Jekyll Theme
+title: Monal Narasimhamurthy
+email: monal.narasimhamurthy@gmail.com
+description: Personal Website - Monal Narasimhamurthy
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: hemang_kumar
-github_username:  hemangsk
+url: "http://monal.github.io" # the base hostname & protocol for your site
+twitter_username: monaln
+github_username:  monal
 
 # Build settings
 markdown: kramdown
