@@ -8,10 +8,9 @@
 # Site settings
 title: Monal Narasimhamurthy
 email: monal.narasimhamurthy@gmail.com
-description: Personal Website - Monal Narasimhamurthy
+description: Personal Website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://monal.github.io" # the base hostname & protocol for your site
-twitter_username: monaln
 github_username:  monal
 
 # Build settings
