@@ -4,7 +4,9 @@ layout: default
 
 <div class="home">
 
+</div>
 
+<div class="readings">
   {% for post in site.posts%}
   <div class="post postContent">
     <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
