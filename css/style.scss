@@ -146,6 +146,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
+    &.page-link{
+      &:hover {
+          color: #494b4d !important;
+          border-bottom: 1px dotted black ;
+      }
+    }
     color: #000080 !important;
     text-decoration: none;
 
@@ -158,12 +164,6 @@ a {
         border-bottom: 1px dotted black ;
     }
 
-    &.page-link{
-      &:hover {
-          color: #494b4d !important;
-          border-bottom: 1px dotted black ;
-      }
-    }
     &.postLink{
       color: black !important;
       &:hover {
