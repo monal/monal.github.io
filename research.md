@@ -4,7 +4,7 @@ title: research
 permalink: /research/
 ---
 <div style="margin-top: 10px">
-<ul>
+<ul style="line-height:200%">
 <li><a href="https://arxiv.org/abs/1803.06547">Meta-F*: Proof automation with SMT, Tactics, and Metaprograms </a> <br> 
     Guido Martínez, Danel Ahman, Victor Dumitrescu, Nick Giannarakis, Chris Hawblitzel, Cătălin Hriţcu, Monal Narasimhamurthy, Zoe Paraskevopoulou, Clément Pit-Claudel, Jonathan Protzenko, Tahina Ramananandro, Aseem Rastogi, Nikhil Swamy. In <a href="https://conf.researchr.org/track/etaps-2019/esop-2019-papers">28th European Symposium on Programming (ESOP) </a>, Springer, 2019
 </li>
