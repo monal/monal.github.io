@@ -152,6 +152,9 @@ a {
           border-bottom: 1px dotted black ;
       }
     }
+    &.page-link:visited {
+        color: darken(#494b4d, 15%);
+    }
     color: #000080 !important;
     text-decoration: none;
 
