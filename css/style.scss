@@ -156,7 +156,7 @@ a {
         color: #000000 !important;
     }
     color: #000000;
-    text-decoration: dashed underline;
+    text-decoration: none;
 
     &:visited {
         color: darken($brand-color, 15%);
