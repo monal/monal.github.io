@@ -13,7 +13,7 @@ permalink: /research/
     Guido Martínez, Danel Ahman, Victor Dumitrescu, Nick Giannarakis, Chris Hawblitzel, Cătălin Hriţcu, Monal Narasimhamurthy, Zoe Paraskevopoulou, Clément Pit-Claudel, Jonathan Protzenko, Tahina Ramananandro, Aseem Rastogi, Nikhil Swamy. <a href="https://icfp18.sigplan.org/track/mlfamilyworkshop-2018-papers">ML</a>, 2018 
 </li>
 <li>
-<a href="http://matthewhammer.org/fungi-lang-2018.pdf" style="padding-top: 10px">Fungi: Typed incremental computation with names</a> [In Submission] <br> 
+<a href="http://matthewhammer.org/fungi-lang-2018.pdf" style="padding-top: 10px">Fungi: Typed incremental computation with names</a> [Draft] <br> 
   Matthew A. Hammer, Kyle Headley, Joshua Dunfield, Monal Narasimhamurthy, Dimitrios J. Economou
 </li>
 </ul>
