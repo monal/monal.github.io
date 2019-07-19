@@ -1,6 +1,6 @@
 
 <div class="wrapper">
-  <center> <a href="/index.html"><div class="site-title">   {{site.title}} </div></a></center>
+  <center> <a href="/index.html"><div class="site-title"><span title="/mow-nuhl/"> {{site.title}} </span></div></a></center>
 </div>
 <div class="wrapper site-description">
 <center>  {{site.description}} </center>
@@ -12,7 +12,7 @@
     {% for sitePage in site.pages %}
     {% if sitePage.title %}
 
-    <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}"><span title="/mow-nuhl/">{{sitePage.title}}</span></a><span class="exclamationMark">/</span>
+    <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a><span class="exclamationMark">/</span>
     {% endif %}
     {% endfor %}
   </div>
