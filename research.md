@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 <ul style="line-height:200%; margin-top: 10px">
-<li><a href="https://ieeexplore.ieee.org/document/8942151">Verifying Conformance of Neural Network Models: Invited Paper</a></br>
+<li><a href="https://ieeexplore.ieee.org/document/8942151">Verifying Conformance of Neural Network Models: Invited Paper</a><br>
 Monal Narasimhamurthy, Taisa Kushner, Souradeep Dutta, Sriram Sankaranyaranan.
 In 2019 IEEE/ACM International Conference on Computer-Aided Design (ICCAD). IEEE, 2019.
 </li>
