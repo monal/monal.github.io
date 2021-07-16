@@ -18,6 +18,6 @@ In 2019 IEEE/ACM International Conference on Computer-Aided Design (ICCAD). IEEE
 </li>
 <li>
 <a href="http://matthewhammer.org/fungi-lang-2018.pdf" style="padding-top: 10px">Fungi: Typed incremental computation with names</a> [Draft] <br> 
-  Matthew A. Hammer, Kyle Headley, Joshua Dunfield, Monal Narasimhamurthy, Dimitrios J. Economou
+  Matthew A. Hammer, Kyle Headley, Jana Dunfield, Monal Narasimhamurthy, Dimitrios J. Economou
 </li>
 </ul>
