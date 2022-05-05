@@ -679,14 +679,12 @@ pre {
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
 
-
-
 body{
   line-height:1.3em;
   min-width:920px;
 }
 .history-tl-container{
-    font-family: "Roboto",sans-serif;
+    font-family: "PT Sans",sans-serif;
   width:50%;
   margin:auto;
   display:block;
@@ -704,7 +702,7 @@ body{
     margin-left:200px;
     min-height:50px;
     /*background: rgba(255,255,0,0.1);*/
-    border-left:1px dashed #86D6FF;
+    border-left:1px dashed #000;
     padding:0 0 50px 30px;
     position:relative;
 }
@@ -716,14 +714,14 @@ body{
     content: " ";
     border: 8px solid rgba(255, 255, 255, 0.74);
     border-radius: 500%;
-    background: #258CC7;
+    background: #006400;
     height: 20px;
     width: 20px;
     transition: all 500ms ease-in-out;
 
 }
 .history-tl-container ul.tl li:hover::before{
-    border-color:  #258CC7;
+    border-color: #006400;
     transition: all 1000ms ease-in-out;
 }
 ul.tl li .item-title{
