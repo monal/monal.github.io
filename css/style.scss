@@ -679,10 +679,6 @@ pre {
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
 
-body{
-  line-height:1.3em;
-  min-width:920px;
-}
 .history-tl-container{
     font-family: "PT Sans",sans-serif;
   width:50%;
@@ -723,8 +719,6 @@ body{
 .history-tl-container ul.tl li:hover::before{
     border-color: #006400;
     transition: all 1000ms ease-in-out;
-}
-ul.tl li .item-title{
 }
 ul.tl li .item-detail{
     color:rgba(0,0,0,0.5);
