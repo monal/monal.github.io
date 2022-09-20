@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: 'EB Garamond', sans-serif;
+$base-font-family: 'Lato', sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -293,7 +293,7 @@ pre {
 }
 
 .post {
-  font-family: 'EB Garamond';
+  font-family: 'Lato';
   font-size: 18px;
   font-weight: 300;
   padding-top: 0;
@@ -410,12 +410,12 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: 'EB Garamond';
+  font-family: 'Lato';
   font-size: 12px;
 }
 .page-tagline {
   font-size: 18px;
-  font-family: 'EB Garamond';
+  font-family: 'Lato';
   color: rgb(170, 170, 170);
   text-align: center;
   text-transform: lowercase;
@@ -491,7 +491,7 @@ pre {
   margin-left: 0;
 }
 .small-site-title {
-  font-family: 'EB Garamond';
+  font-family: 'Lato';
 }
 .footer-col-wrapper {
   font-size: 15px;
@@ -500,7 +500,7 @@ pre {
   @extend %clearfix;
 }
 .footer-content {
-  font-family: 'EB Garamond';
+  font-family: 'Lato';
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -575,7 +575,7 @@ pre {
   font-size: 62px;
 
   text-align: center;
-  font-family: 'EB Garamond';
+  font-family: 'Lato';
   font-weight: 900;
   @include media-query($on-laptop) {
     font-size: 36px;
@@ -680,7 +680,7 @@ pre {
 }
 
 .history-tl-container{
-    font-family: 'EB Garamond',sans-serif;
+    font-family: 'Lato',sans-serif;
   width:50%;
   margin:auto;
   display:block;
@@ -734,6 +734,6 @@ ul.tl li .timestamp{
 }
 
 @font-face {
-  font-family: 'EB Garamond';
+  font-family: 'Lato';
   src: url("../_includes/avenir_ff/AvenirLTStd-Roman.otf");
 }
