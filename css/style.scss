@@ -377,7 +377,7 @@ pre {
 .site-title {
   font-size: 64px;
   font-weight: 100;
-  font-family: 'Avenir Roman';
+  font-family: 'Lato';
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em;
@@ -390,7 +390,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: 'Avenir Roman';
+  font-family: 'Lato';
 }
 .exclamationMark {
   padding-left: 2em;
@@ -402,7 +402,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: 'Avenir Roman';
+  font-family: 'Lato';
   font-weight: 300;
   padding-top: 5em;
 }
@@ -731,9 +731,4 @@ ul.tl li .timestamp{
     left: -50%;
     text-align: right;
     font-size: 12px;
-}
-
-@font-face {
-  font-family: 'Lato';
-  src: url("../_includes/avenir_ff/AvenirLTStd-Roman.otf");
 }
