@@ -4,15 +4,13 @@ layout: default
 
 <div class="home" style="line-height: 200%">
 <div style="margin-top: 40px; line-height: 200%">
-  <a href="https://github.com/{{ include.username }}" style="text-decoration: none; display: flex; align-items: center;">
+  <a href="https://github.com/{{ site.github_username }}" style="text-decoration: none; display: flex; align-items: center;">
     <i class="fa fa-github" style="font-size: 24px; margin-right: 8px;"></i>
     <span class="username" style="font-size: 18px;">{{ site.github_username }}</span>
   </a> &nbsp; | &nbsp;
-  <!-- <a href="https://github.com/{{ include.username }}">
-    <i class="fa fa-github" style="font-size:48px;"></i><span class="username">{{ include.username }}</span>
-  </a> &nbsp; | &nbsp; -->
-  <a>
-    {% include icon-linkedin.html username=site.linkedin_username %}
+  <a href="https://github.com/{{ site.linkedin_username }}" style="text-decoration: none; display: flex; align-items: center;"></a>
+    <i class="fa fa-linkedin" style="font-size: 24px; margin-right: 8px;"></i>
+    <span class="username" style="font-size: 18px;">{{ site.linkedin_username }}</span>
   </a> &nbsp; | &nbsp;
   <a href="https://github.com/monal/monal.github.io/blob/master/monal-narasimhamurthy-cv.pdf"><b>CV</b></a> <br>
   <b><font size="2">Email: </font>
