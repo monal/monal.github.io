@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: 'Poppins', sans-serif;
+$base-font-family: 'Inter', sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -293,7 +293,7 @@ pre {
 }
 
 .post {
-  font-family: 'Poppins';
+  font-family: 'Inter';
   font-size: 18px;
   font-weight: 300;
   padding-top: 0;
@@ -377,7 +377,7 @@ pre {
 .site-title {
   font-size: 64px;
   font-weight: 100;
-  font-family: 'Poppins';
+  font-family: 'Inter';
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em;
@@ -390,7 +390,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: 'Poppins';
+  font-family: 'Inter';
 }
 .exclamationMark {
   padding-left: 2em;
@@ -402,7 +402,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: 'Poppins';
+  font-family: 'Inter';
   font-weight: 300;
   padding-top: 5em;
 }
@@ -410,12 +410,12 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: 'Poppins';
+  font-family: 'Inter';
   font-size: 12px;
 }
 .page-tagline {
   font-size: 18px;
-  font-family: 'Poppins';
+  font-family: 'Inter';
   color: rgb(170, 170, 170);
   text-align: center;
   text-transform: lowercase;
@@ -491,7 +491,7 @@ pre {
   margin-left: 0;
 }
 .small-site-title {
-  font-family: 'Poppins';
+  font-family: 'Inter';
 }
 .footer-col-wrapper {
   font-size: 15px;
@@ -500,7 +500,7 @@ pre {
   @extend %clearfix;
 }
 .footer-content {
-  font-family: 'Poppins';
+  font-family: 'Inter';
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -575,7 +575,7 @@ pre {
   font-size: 62px;
 
   text-align: center;
-  font-family: 'Poppins';
+  font-family: 'Inter';
   font-weight: 900;
   @include media-query($on-laptop) {
     font-size: 36px;
@@ -680,7 +680,7 @@ pre {
 }
 
 .history-tl-container{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Inter',sans-serif;
   width:50%;
   margin:auto;
   display:block;
