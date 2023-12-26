@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: 'Inter', sans-serif;
+$base-font-family: 'Mona Sans', sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -293,7 +293,7 @@ pre {
 }
 
 .post {
-  font-family: 'Inter';
+  font-family: 'Mona Sans';
   font-size: 18px;
   font-weight: 300;
   padding-top: 0;
@@ -377,7 +377,7 @@ pre {
 .site-title {
   font-size: 64px;
   font-weight: 100;
-  font-family: 'Inter';
+  font-family: 'Mona Sans';
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em;
@@ -390,7 +390,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: 'Inter';
+  font-family: 'Mona Sans';
 }
 .exclamationMark {
   padding-left: 2em;
@@ -402,7 +402,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: 'Inter';
+  font-family: 'Mona Sans';
   font-weight: 300;
   padding-top: 5em;
 }
@@ -410,12 +410,12 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: 'Inter';
+  font-family: 'Mona Sans';
   font-size: 12px;
 }
 .page-tagline {
   font-size: 18px;
-  font-family: 'Inter';
+  font-family: 'Mona Sans';
   color: rgb(170, 170, 170);
   text-align: center;
   text-transform: lowercase;
@@ -491,7 +491,7 @@ pre {
   margin-left: 0;
 }
 .small-site-title {
-  font-family: 'Inter';
+  font-family: 'Mona Sans';
 }
 .footer-col-wrapper {
   font-size: 15px;
@@ -500,7 +500,7 @@ pre {
   @extend %clearfix;
 }
 .footer-content {
-  font-family: 'Inter';
+  font-family: 'Mona Sans';
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -575,7 +575,7 @@ pre {
   font-size: 62px;
 
   text-align: center;
-  font-family: 'Inter';
+  font-family: 'Mona Sans';
   font-weight: 900;
   @include media-query($on-laptop) {
     font-size: 36px;
@@ -667,7 +667,7 @@ pre {
     .s2    { color: #d14 } // Literal.String.Double
     .se    { color: #d14 } // Literal.String.Escape
     .sh    { color: #d14 } // Literal.String.Heredoc
-    .si    { color: #d14 } // Literal.String.Interpol
+    .si    { color: #d14 } // Literal.String.Mona Sanspol
     .sx    { color: #d14 } // Literal.String.Other
     .sr    { color: #009926 } // Literal.String.Regex
     .s1    { color: #d14 } // Literal.String.Single
@@ -680,7 +680,7 @@ pre {
 }
 
 .history-tl-container{
-    font-family: 'Inter',sans-serif;
+    font-family: 'Mona Sans',sans-serif;
   width:50%;
   margin:auto;
   display:block;
