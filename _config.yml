@@ -9,10 +9,11 @@
 title: Monal Narasimhamurthy
 email: monal.narasimhamurthy@colorado.edu
 description: Graduate Student, University of Colorado Boulder
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "http://monal.github.io" # the base hostname & protocol for your site
-github_username:  monal
-linkedin_username: monal-narasimhamurthy
+github_username:  "monal"
+linkedin_username: "monal-narasimhamurthy"
+js: false
 
 # Build settings
 markdown: kramdown
