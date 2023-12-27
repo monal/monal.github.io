@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 18px/1.5 "Mona Sans", sans-serif;
+  font: 400 18px/1.5 "Lato", sans-serif;
   color: #111;
   background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
@@ -162,7 +162,7 @@ pre {
     fill: #828282; }
 
 .post {
-  font-family: 'Mona Sans';
+  font-family: 'Lato';
   font-size: 18px;
   font-weight: 300;
   padding-top: 0; }
@@ -245,7 +245,7 @@ pre {
 .site-title {
   font-size: 64px;
   font-weight: 100;
-  font-family: 'Mona Sans';
+  font-family: 'Lato';
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em; }
@@ -255,7 +255,7 @@ pre {
 .site-description {
   font-size: 16px;
   letter-spacing: 1px;
-  font-family: 'Mona Sans'; }
+  font-family: 'Lato'; }
 
 .exclamationMark {
   padding-left: 2em;
@@ -267,7 +267,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: 'Mona Sans';
+  font-family: 'Lato';
   font-weight: 300;
   padding-top: 5em; }
 
@@ -275,12 +275,12 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: 'Mona Sans';
+  font-family: 'Lato';
   font-size: 12px; }
 
 .page-tagline {
   font-size: 18px;
-  font-family: 'Mona Sans';
+  font-family: 'Lato';
   color: #aaaaaa;
   text-align: center;
   text-transform: lowercase; }
@@ -345,7 +345,7 @@ pre {
   margin-left: 0; }
 
 .small-site-title {
-  font-family: 'Mona Sans'; }
+  font-family: 'Lato'; }
 
 .footer-col-wrapper {
   font-size: 15px;
@@ -353,7 +353,7 @@ pre {
   margin-left: -15px; }
 
 .footer-content {
-  font-family: 'Mona Sans';
+  font-family: 'Lato';
   font-weight: 300;
   letter-spacing: 1px; }
 
@@ -422,7 +422,7 @@ pre {
 .post-title {
   font-size: 62px;
   text-align: center;
-  font-family: 'Mona Sans';
+  font-family: 'Lato';
   font-weight: 900; }
   @media screen and (max-width: 1300px) {
     .post-title {
@@ -591,7 +591,7 @@ pre {
     color: #099; }
 
 .history-tl-container {
-  font-family: 'Mona Sans',sans-serif;
+  font-family: 'Lato',sans-serif;
   width: 50%;
   margin: auto;
   display: block;
@@ -666,11 +666,11 @@ ul.publications li .item-title {
 
 ul.internships li {
   margin-bottom: 20px;
-  font-family: 'Mona Sans', sans-serif; }
+  font-family: 'Lato', sans-serif; }
 
 ul.publications li {
   margin-bottom: 20px;
-  font-family: 'Mona Sans', sans-serif; }
+  font-family: 'Lato', sans-serif; }
 
 ul.publications li .item-supp {
   display: flex;
