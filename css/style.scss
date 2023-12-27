@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: 'Lato', sans-serif;
+$base-font-family: 'Figtree', sans-serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -290,7 +290,7 @@ pre {
 }
 
 .post {
-  font-family: 'Lato';
+  font-family: $base-font-family;
   font-size: 18px;
   font-weight: 300;
   padding-top: 0;
@@ -374,7 +374,7 @@ pre {
 .site-title {
   font-size: 64px;
   font-weight: 100;
-  font-family: 'Lato';
+  font-family: $base-font-family;
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em;
@@ -386,7 +386,7 @@ pre {
 .site-description {
   font-size: 16px;
   letter-spacing: 1px;
-  font-family: 'Lato';
+  font-family: $base-font-family;
 }
 .exclamationMark {
   padding-left: 2em;
@@ -398,7 +398,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: 'Lato';
+  font-family: $base-font-family;
   font-weight: 300;
   padding-top: 5em;
 }
@@ -406,12 +406,12 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: 'Lato';
+  font-family: $base-font-family;
   font-size: 12px;
 }
 .page-tagline {
   font-size: 18px;
-  font-family: 'Lato';
+  font-family: $base-font-family;
   color: rgb(170, 170, 170);
   text-align: center;
   text-transform: lowercase;
@@ -487,7 +487,7 @@ pre {
   margin-left: 0;
 }
 .small-site-title {
-  font-family: 'Lato';
+  font-family: $base-font-family;
 }
 .footer-col-wrapper {
   font-size: 15px;
@@ -496,7 +496,7 @@ pre {
   @extend %clearfix;
 }
 .footer-content {
-  font-family: 'Lato';
+  font-family: $base-font-family;
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -571,7 +571,7 @@ pre {
   font-size: 62px;
 
   text-align: center;
-  font-family: 'Lato';
+  font-family: $base-font-family;
   font-weight: 900;
   @include media-query($on-laptop) {
     font-size: 36px;
@@ -663,7 +663,7 @@ pre {
     .s2    { color: #d14 } // Literal.String.Double
     .se    { color: #d14 } // Literal.String.Escape
     .sh    { color: #d14 } // Literal.String.Heredoc
-    .si    { color: #d14 } // Literal.String.Latopol
+    .si    { color: #d14 } // Literal.String.Poppinspol
     .sx    { color: #d14 } // Literal.String.Other
     .sr    { color: #009926 } // Literal.String.Regex
     .s1    { color: #d14 } // Literal.String.Single
@@ -676,7 +676,7 @@ pre {
 }
 
 .history-tl-container{
-  font-family: 'Lato',sans-serif;
+  font-family: $base-font-family,sans-serif;
   width:50%;
   margin:auto;
   display:block;
@@ -757,12 +757,12 @@ ul.publications li .item-title {
 
 ul.internships li {
   margin-bottom: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: $base-font-family, sans-serif;
 }
 
 ul.publications li {
   margin-bottom: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: $base-font-family, sans-serif;
 }
 
 ul.publications li .item-supp {
@@ -800,7 +800,7 @@ ul.publications li .item-supp a:hover{
   color: #24292E;
   cursor: pointer;
   display: inline-block;
-  font-family: "Mona-Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
