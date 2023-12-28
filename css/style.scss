@@ -371,7 +371,7 @@ pre {
   position: absolute;
 }
 .site-title {
-  font-size: 4vw;
+  font-size: 42pt;
   font-weight: 100;
   font-family: $base-font-family;
   text-transform: capitalize;
@@ -383,8 +383,8 @@ pre {
   }
 }
 .site-description {
-  font-size: 1vw;
-  letter-spacing: 0.25vw;
+  font-size: 10pt;
+  letter-spacing: 2pt;
   font-family: $base-font-family;
   color: $site-description-color;
 }
@@ -845,4 +845,19 @@ ul.publications li .item-supp a:hover{
 
 .button-4:-webkit-details-marker {
   display: none;
+}
+
+.bio-container {
+  border: 1px dashed #000080;
+  width: 50rem;
+  max-width: 90%;
+  margin: auto;
+}
+
+.bio-image {
+  border: 1px solid red;
+}
+
+.bio-about {
+  border: 1px solid red;
 }
