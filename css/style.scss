@@ -21,12 +21,12 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$site-description-color: #36454F;
 
 // Width of the content area
-$content-width:    1300px;
-
-$on-palm:          600px;
-$on-laptop:        1300px;
+$content-width:    100%;
+$on-palm:          100%;
+$on-laptop:        100%;
 
 
 
@@ -242,21 +242,20 @@ pre {
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 4));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 4));
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
+    border: 1px solid #009926;
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        margin: auto;
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
 }
-
-
 
 /**
  * Clearfix
@@ -369,10 +368,10 @@ pre {
   border-bottom: 1px solid $grey-color-light;
   min-height: 56px;
   // Positioning context for the mobile navigation icon
-  position: relative;
+  position: absolute;
 }
 .site-title {
-  font-size: 64px;
+  font-size: 4vw;
   font-weight: 100;
   font-family: $base-font-family;
   text-transform: capitalize;
@@ -384,9 +383,10 @@ pre {
   }
 }
 .site-description {
-  font-size: 16px;
-  letter-spacing: 1px;
+  font-size: 1vw;
+  letter-spacing: 0.25vw;
   font-family: $base-font-family;
+  color: $site-description-color;
 }
 .exclamationMark {
   padding-left: 2em;

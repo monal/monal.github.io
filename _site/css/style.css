@@ -129,16 +129,17 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(1300px - (30px * 4));
-  max-width: calc(1300px - (30px * 4));
-  margin-right: auto;
-  margin-left: auto;
+  max-width: -webkit-calc(100% - (30px * 4));
+  max-width: calc(100% - (30px * 4));
+  margin: auto;
   padding-right: 30px;
-  padding-left: 30px; }
-  @media screen and (max-width: 1300px) {
+  padding-left: 30px;
+  border: 1px solid #009926; }
+  @media screen and (max-width: 100%) {
     .wrapper {
-      max-width: -webkit-calc(1300px - (30px));
-      max-width: calc(1300px - (30px));
+      max-width: -webkit-calc(100% - (30px));
+      max-width: calc(100% - (30px));
+      margin: auto;
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -240,10 +241,10 @@ pre {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  position: relative; }
+  position: absolute; }
 
 .site-title {
-  font-size: 64px;
+  font-size: 4vw;
   font-weight: 100;
   font-family: "Figtree", sans-serif;
   text-transform: capitalize;
@@ -253,9 +254,10 @@ pre {
     color: #424242; }
 
 .site-description {
-  font-size: 16px;
-  letter-spacing: 1px;
-  font-family: "Figtree", sans-serif; }
+  font-size: 1vw;
+  letter-spacing: 0.25vw;
+  font-family: "Figtree", sans-serif;
+  color: #36454F; }
 
 .exclamationMark {
   padding-left: 2em;
@@ -293,7 +295,7 @@ pre {
   line-height: 1.5; }
   .site-nav .page-link:not(:last-child) {
     margin-right: 20px; }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .site-nav {
     position: absolute;
     top: 9px;
@@ -374,7 +376,7 @@ pre {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 100%) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
@@ -383,7 +385,7 @@ pre {
   .footer-col-3 {
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (30px / 2));
@@ -424,7 +426,7 @@ pre {
   text-align: center;
   font-family: "Figtree", sans-serif;
   font-weight: 900; }
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 100%) {
     .post-title {
       font-size: 36px; } }
 
@@ -435,17 +437,17 @@ pre {
     font-size: 1.5rem; }
   .post-content h2 {
     font-size: 32px; }
-    @media screen and (max-width: 1300px) {
+    @media screen and (max-width: 100%) {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
     font-size: 26px; }
-    @media screen and (max-width: 1300px) {
+    @media screen and (max-width: 100%) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
     font-size: 20px; }
-    @media screen and (max-width: 1300px) {
+    @media screen and (max-width: 100%) {
       .post-content h4 {
         font-size: 18px; } }
 
