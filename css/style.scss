@@ -22,6 +22,7 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $site-description-color: #36454F;
+$google-scholar-color: #4D90FF;
 
 // Width of the content area
 $content-width:    100%;
@@ -800,9 +801,9 @@ ul.publications li .item-supp a:hover{
   color: #24292E;
   cursor: pointer;
   display: inline-block;
-  font-family: "Poppins", sans-serif;
+  font-family: $base-font-family;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 20px;
   list-style: none;
   padding: 6px 16px;
@@ -880,6 +881,7 @@ ul.publications li .item-supp a:hover{
   max-width: 95%;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .internships {
@@ -890,6 +892,7 @@ ul.publications li .item-supp a:hover{
   max-width: 95%;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .teaching {
@@ -900,6 +903,7 @@ ul.publications li .item-supp a:hover{
   max-width: 95%;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .headshot {
@@ -921,4 +925,61 @@ ul.publications li .item-supp a:hover{
   width: 100%;
   margin: auto;
   max-width: 280px;
+}
+
+.section-title {
+  letter-spacing: 1.3pt;
+  font-weight: bold;
+}
+
+.gscholar {
+  margin-right: 0 auto;
+  margin-left: auto;
+  border: 2px solid red;
+  padding-right: 5pt;
+}
+
+.item-title {
+  font-size: 14pt;
+}
+
+.publications-list-item {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.item-detail {
+  font-size: 10pt;
+}
+
+.item-supp a {
+  font-size: 10pt;
+  border: 1px solid #000;
+  background-color: #FAFBFC;
+  color: #000;
+  padding: 2pt;
+  margin-right: 5pt;
+}
+
+.item-supp a:hover {
+  background-color: darken(#FAFBFC, 15%);
+}
+
+.internships-list {
+  width: 100%;
+}
+
+.internships-list li {
+  margin-bottom: 10px;
+}
+
+.internships-list .item-title {
+  font-size: 12pt;
+}
+
+.internships-list .item-timestamp {
+  margin-right: 0 auto;
+  margin-left: auto;
+  float: right;
+  font-size: 10pt;
 }
