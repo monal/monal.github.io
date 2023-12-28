@@ -858,8 +858,10 @@ ul.publications li .item-supp a:hover{
 
 .bio-image {
   border: 1px solid red;
-  width: 320px;
-  margin: auto;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
 
 .bio-about {
@@ -867,4 +869,56 @@ ul.publications li .item-supp a:hover{
   flex-basis: 60%;
   min-width: 320px;
   margin: auto;
+  margin-top: 40px;
+}
+
+.publications {
+  padding: 5px;
+  width: 55rem;
+  margin: auto;
+  border: 1px solid green;
+  max-width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.internships {
+  padding: 5px;
+  margin: auto;
+  width: 55rem;
+  border: 1px solid green;
+  max-width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.teaching {
+  padding: 5px;
+  width: 55rem;
+  margin: auto;
+  border: 1px solid green;
+  max-width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headshot {
+  margin: auto;
+  max-width: 280px;
+}
+
+.socials {
+  margin-top: 10px;
+  max-width: 280px;
+  border: 1px solid purple;
+  margin: auto;
+  display: inline;
+}
+
+.socials-item {
+  font-size: 11pt;
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  max-width: 280px;
 }

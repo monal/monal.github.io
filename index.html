@@ -2,6 +2,56 @@
 layout: default
 ---
 <div class="bio-container">
-  <div class="bio-image">test1</div>
-  <div class="bio-about">test2</div>
+  <div class="bio-image">
+    <figure class="headshot">
+      <img src="headshot_monal.jpg"></img>
+    </figure>
+    <div class="socials">
+      <a class="socials-item" href="mailto:{{site.email}}" style="color: black;">
+        <i class="fa fa-solid fa-envelope fa-sm" style="margin-right: 4px;"></i>
+        <span>{{site.email}}</span>
+      </a>
+      <a class="socials-item" href="https://github.com/{{ site.github_username }}" style="color: black;">
+        <i class="fa-brands fa-github fa-sm" style="margin-right: 4px; color: black;"></i>
+        <span>{{site.github_username}}</span>
+      </a>
+      <a class="socials-item" href="https://linkedin.com/in/{{ site.linkedin_username }}" style="color: black;">
+        <i class="fa-brands fa-linkedin fa-sm" style="margin-right: 4px; color: #0077b5;"></i>
+        <span>{{site.linkedin_username}}</span>
+      </a>
+      <a class="socials-item" href="https://github.com/monal/monal.github.io/blob/master/monal-narasimhamurthy-cv.pdf" style="color: black;">
+        <i class="fa-solid fa-file fa-sm" style="margin-right: 4px; color: black;"></i>
+        <span>CV</span>
+      </a>
+    </div>
+  </div>
+  <div class="bio-about">
+    <p style="line-height: 200%"> 
+      Hi! I'm a PhD candidate at the University of Colorado  Boulder in the Department of Computer Science and
+      a member of the <a href="http://plv.colorado.edu"> CU Programming Languages and Verification (CUPLV) </a> group.
+      I'm advised by <a href="http://www.cs.colorado.edu/~srirams/index.html">Prof. Sriram Sankaranarayanan</a>.
+    </p>
+    <p style="line-height: 200%">
+            My research interests lie at the intersection of formal methods, machine learning, and dynamical systems. 
+            I'm interested in modeling autonomous systems (cyber-physical systems) for control and 
+            verification using data-driven techniques.
+    </p>
+    <p style="line-height: 200%">
+              I received my Masters degree in Computer Science from the University of Colorado Boulder in 2017. 
+              I was advised by <a href="http://matthewhammer.org/ghost.html"> Prof. Matthew Hammer</a>. 
+              My research included topics in programming language theory and type systems.
+    </p>
+    <p style="line-height: 200%">
+            I obtained my Bachelors degree in Computer Science from Birla Institute of Technology and Science, Pilani (Goa) in 2014.
+    </p>
+  </div>
+</div>
+<div class="publications">
+  <p>publications</p>
+</div>
+<div class="internships">
+  <p>teaching</p>
+</div>
+<div class="teaching">
+  <p>teaching</p>
 </div>
