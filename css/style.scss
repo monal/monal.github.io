@@ -849,15 +849,22 @@ ul.publications li .item-supp a:hover{
 
 .bio-container {
   border: 1px dashed #000080;
-  width: 50rem;
-  max-width: 90%;
+  width: 55rem;
+  max-width: 95%;
+  display: flex;
+  flex-wrap: wrap;
   margin: auto;
 }
 
 .bio-image {
   border: 1px solid red;
+  width: 320px;
+  margin: auto;
 }
 
 .bio-about {
   border: 1px solid red;
+  flex-basis: 60%;
+  min-width: 320px;
+  margin: auto;
 }
