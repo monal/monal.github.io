@@ -373,7 +373,7 @@ pre {
   position: absolute;
 }
 .site-title {
-  font-size: 32pt;
+  font-size: min(3vw, 42pt);
   font-weight: 100;
   font-family: $base-font-family;
   text-transform: capitalize;
@@ -385,11 +385,12 @@ pre {
   }
 }
 
-@media screen and (min-width: 260px) {
-  .site-title {
-    font-size: calc(20px + 13 * ((100vw - 260px) / 260));
-  }
-}
+// @media screen and (min-width: 260px) {
+//   .site-title {
+//     font-size: 32pt;
+//   }
+// }
+
 .site-description {
   font-size: 10pt;
   letter-spacing: 2pt;

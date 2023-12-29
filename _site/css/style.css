@@ -245,7 +245,7 @@ pre {
   position: absolute; }
 
 .site-title {
-  font-size: 32pt;
+  font-size: min(3vw, 42pt);
   font-weight: 100;
   font-family: "Figtree", sans-serif;
   text-transform: capitalize;
@@ -254,9 +254,6 @@ pre {
   .site-title, .site-title:visited {
     color: #424242; }
 
-@media screen and (min-width: 260px) {
-  .site-title {
-    font-size: calc(20px + 13 * ((100vw - 260px) / 260)); } }
 .site-description {
   font-size: 10pt;
   letter-spacing: 2pt;
