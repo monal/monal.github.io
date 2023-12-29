@@ -247,7 +247,6 @@ pre {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
-    border: 1px solid #009926;
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
@@ -849,7 +848,6 @@ ul.publications li .item-supp a:hover{
 }
 
 .bio-container {
-  border: 1px dashed #000080;
   width: 55rem;
   max-width: 95%;
   display: flex;
@@ -858,7 +856,6 @@ ul.publications li .item-supp a:hover{
 }
 
 .bio-image {
-  border: 1px solid red;
   width: 280px;
   margin-left: auto;
   margin-right: auto;
@@ -866,7 +863,6 @@ ul.publications li .item-supp a:hover{
 }
 
 .bio-about {
-  border: 1px solid red;
   flex-basis: 60%;
   min-width: 320px;
   margin: auto;
@@ -877,18 +873,16 @@ ul.publications li .item-supp a:hover{
   padding: 5px;
   width: 55rem;
   margin: auto;
-  border: 1px solid green;
   max-width: 95%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .internships {
   padding: 5px;
   margin: auto;
   width: 55rem;
-  border: 1px solid green;
   max-width: 95%;
   display: flex;
   flex-wrap: wrap;
@@ -899,7 +893,6 @@ ul.publications li .item-supp a:hover{
   padding: 5px;
   width: 55rem;
   margin: auto;
-  border: 1px solid green;
   max-width: 95%;
   display: flex;
   flex-wrap: wrap;
@@ -914,7 +907,6 @@ ul.publications li .item-supp a:hover{
 .socials {
   margin-top: 10px;
   max-width: 280px;
-  border: 1px solid purple;
   margin: auto;
   display: inline;
 }
@@ -935,7 +927,6 @@ ul.publications li .item-supp a:hover{
 .gscholar {
   margin-right: 0 auto;
   margin-left: auto;
-  border: 2px solid red;
   padding-right: 5pt;
 }
 
