@@ -813,7 +813,8 @@ ul.publications li .item-supp a:hover{
   font-weight: 700;
   line-height: 20px;
   list-style: none;
-  padding: 4px 8px;
+  padding: 4px 14px;
+  max-height: 32px;
   position: relative;
   transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   user-select: none;
@@ -940,7 +941,6 @@ ul.publications li .item-supp a:hover{
   margin-right: 1px auto;
   margin-left: auto;
   float: right;
-  text-decoration: none;
 }
 
 .item-title {
