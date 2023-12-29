@@ -243,7 +243,7 @@ pre {
   position: absolute; }
 
 .site-title {
-  font-size: 42pt;
+  font-size: 32pt;
   font-weight: 100;
   font-family: "Figtree", sans-serif;
   text-transform: capitalize;
@@ -252,6 +252,9 @@ pre {
   .site-title, .site-title:visited {
     color: #424242; }
 
+@media screen and (min-width: 260px) {
+  .site-title {
+    font-size: calc(20px + 13 * ((100vw - 260px) / 260)); } }
 .site-description {
   font-size: 10pt;
   letter-spacing: 2pt;
@@ -752,25 +755,27 @@ ul.publications li .item-supp a:hover {
   margin: auto; }
 
 .bio-image {
-  width: 280px;
+  width: 240px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px; }
 
 .bio-about {
   flex-basis: 60%;
-  min-width: 320px;
+  min-width: 260px;
   margin: auto;
   margin-top: 40px; }
 
 .publications {
   padding: 5px;
   width: 55rem;
+  min-width: 260px;
   margin: auto;
   max-width: 95%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px; }
+  margin-top: 20px;
+  border: 1px solid #0039a6; }
 
 .internships {
   padding: 5px;
@@ -792,11 +797,11 @@ ul.publications li .item-supp a:hover {
 
 .headshot {
   margin: auto;
-  max-width: 280px; }
+  max-width: 240px; }
 
 .socials {
   margin-top: 10px;
-  max-width: 280px;
+  max-width: 260px;
   margin: auto;
   display: inline; }
 
@@ -805,16 +810,18 @@ ul.publications li .item-supp a:hover {
   display: inline-block;
   width: 100%;
   margin: auto;
-  max-width: 280px; }
+  max-width: 260px; }
 
 .section-title {
   letter-spacing: 1.3pt;
-  font-weight: bold; }
+  font-weight: bold;
+  float: left; }
 
 .gscholar {
   margin-right: 0 auto;
   margin-left: auto;
-  padding-right: 5pt; }
+  padding-right: 5pt;
+  float: right; }
 
 .item-title {
   font-size: 14pt; }
