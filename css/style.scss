@@ -244,6 +244,7 @@ pre {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 4));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 4));
     margin: auto;
+    min-width: 260px;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
@@ -252,6 +253,7 @@ pre {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         margin: auto;
+        min-width: 260px;
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
@@ -811,7 +813,7 @@ ul.publications li .item-supp a:hover{
   font-weight: 700;
   line-height: 20px;
   list-style: none;
-  padding: 6px 16px;
+  padding: 4px 8px;
   position: relative;
   transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   user-select: none;
@@ -862,7 +864,7 @@ ul.publications li .item-supp a:hover{
 }
 
 .bio-image {
-  width: 240px;
+  width: 260px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
@@ -884,7 +886,6 @@ ul.publications li .item-supp a:hover{
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
-  border: 1px solid #0039a6;
 }
 
 .internships {
@@ -909,7 +910,8 @@ ul.publications li .item-supp a:hover{
 
 .headshot {
   margin: auto;
-  max-width: 240px;
+  max-width: 260px;
+  margin-top: 10px;
 }
 
 .socials {
@@ -920,7 +922,7 @@ ul.publications li .item-supp a:hover{
 }
 
 .socials-item {
-  font-size: 11pt;
+  font-size: 10pt;
   display: inline-block;
   width: 100%;
   margin: auto;
@@ -931,13 +933,14 @@ ul.publications li .item-supp a:hover{
   letter-spacing: 1.3pt;
   font-weight: bold;
   float: left;
+  max-width: 60%;
 }
 
 .gscholar {
-  margin-right: 0 auto;
+  margin-right: 1px auto;
   margin-left: auto;
-  padding-right: 5pt;
   float: right;
+  text-decoration: none;
 }
 
 .item-title {
