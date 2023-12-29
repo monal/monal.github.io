@@ -245,7 +245,7 @@ pre {
   position: absolute; }
 
 .site-title {
-  font-size: min(3vw, 42pt);
+  font-size: min(8vw, 42pt);
   font-weight: 100;
   font-family: "Figtree", sans-serif;
   text-transform: capitalize;
@@ -819,7 +819,7 @@ ul.publications li .item-supp a:hover {
   max-width: 60%; }
 
 .gscholar {
-  margin-right: 1px auto;
+  margin-right: auto;
   margin-left: auto;
   float: right; }
 
